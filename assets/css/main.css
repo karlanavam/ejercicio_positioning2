@@ -1,0 +1,61 @@
+*{
+margin: 0px;
+}
+
+body {
+  background-color: #7AE7C7;
+}
+
+header {
+  font-family: 'Delius Unicase', cursive;
+  background: #EC0B43;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+ul {
+  background: #58355E;
+  display: block;
+}
+
+li {
+  font-size: 1.5em;
+  font-family: 'Coming Soon', cursive;
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+  color: white;
+}
+
+li a {
+  font-family: 'Coming Soon', cursive;
+  padding-left: 125px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  text-align: center;
+  color: beige;
+}
+
+a:hover {
+    background-color: #FFF689;
+    color: #58355E;
+}
+
+/*Imagenes*/
+
+.coders {
+  width: 25%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 40px;
+
+}
+
+.coders img {
+  width: 220px;
+}
