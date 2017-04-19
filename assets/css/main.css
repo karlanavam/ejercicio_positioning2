@@ -47,15 +47,30 @@ a:hover {
 }
 
 /*Imagenes*/
+.fotosCoders {
+  position: relative;
+  display: block;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
 
 .coders {
-  width: 25%;
-  display: inline-block;
-  margin-left: 50px;
-  margin-top: 40px;
-
+  width: 200px;
+  margin-left: 120px;
+  display: -webkit-inline-box;
 }
 
 .coders img {
-  width: 220px;
+  width: 200px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+
+.nombres {
+  font-family: 'Coming Soon', cursive;
+  font-size: 1em;
+  margin-right: 20px;
+  color: white;
 }
